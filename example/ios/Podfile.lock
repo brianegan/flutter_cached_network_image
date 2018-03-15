@@ -6,20 +6,20 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `/Users/rene/flutter/bin/cache/artifacts/engine/ios`)
-  - path_provider (from `/Users/rene/.pub-cache/hosted/pub.dartlang.org/path_provider-0.3.1/ios`)
-  - shared_preferences (from `/Users/rene/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.3.2/ios`)
+  - Flutter (from `/Users/phillywiggins/lab/flutter/bin/cache/artifacts/engine/ios`)
+  - path_provider (from `/Users/phillywiggins/.pub-cache/hosted/pub.dartlang.org/path_provider-0.3.1/ios`)
+  - shared_preferences (from `/Users/phillywiggins/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.3.3/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: /Users/rene/flutter/bin/cache/artifacts/engine/ios
+    :path: /Users/phillywiggins/lab/flutter/bin/cache/artifacts/engine/ios
   path_provider:
-    :path: /Users/rene/.pub-cache/hosted/pub.dartlang.org/path_provider-0.3.1/ios
+    :path: /Users/phillywiggins/.pub-cache/hosted/pub.dartlang.org/path_provider-0.3.1/ios
   shared_preferences:
-    :path: /Users/rene/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.3.2/ios
+    :path: /Users/phillywiggins/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.3.3/ios
 
 SPEC CHECKSUMS:
-  Flutter: d674e78c937094a75ac71dd77e921e840bea3dbf
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
   path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
   shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
 

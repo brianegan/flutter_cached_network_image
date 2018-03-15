@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
 
 void main() => runApp(new MyApp());
 
@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   final String title;
+
   MyHomePage({this.title});
 
   @override
@@ -41,13 +42,12 @@ class MyHomePage extends StatelessWidget {
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-
             _sizedContainer(
               new Image(
-                image: new CachedNetworkImageProvider("http://via.placeholder.com/350x150"),
+                image: new CachedNetworkImageProvider(
+                    "http://via.placeholder.com/350x150"),
               ),
             ),
-
             _sizedContainer(
               new CachedNetworkImage(
                 imageUrl: "not a valid uri",
@@ -55,7 +55,6 @@ class MyHomePage extends StatelessWidget {
                 errorWidget: new Icon(Icons.error),
               ),
             ),
-
             _sizedContainer(
               new CachedNetworkImage(
                 imageUrl: "http://via.placeholder.com/350x200",
@@ -65,7 +64,6 @@ class MyHomePage extends StatelessWidget {
                 fadeInDuration: new Duration(seconds: 3),
               ),
             ),
-
           ],
         ),
       ),

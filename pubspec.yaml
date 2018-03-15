@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_cache_manager: "^0.0.4"
+  fancy_network_image:
+    path: ../fancy_network_image
 
 dev_dependencies:
   test: ^0.12.0
